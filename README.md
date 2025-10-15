@@ -1,4 +1,4 @@
-# 🧠 Ghost-DeepResNet — An ultra-lightweight classification model with very low FLOPs and parameter count for identifying strawberry diseases and disorders
+# 👁️ EViTiny — Redesigning the Vision Transformer for Parameters and FLOPs Efficiency
 
 This repository accompanies the paper **"Redesigning the Vision Transformer for Parameters and FLOPs Efficiency"**
 
@@ -7,23 +7,20 @@ The project is structured for both **researchers** and **practitioners**, offeri
 
 ---
 
-## 📦 Key Features
+## 📦 Features & Configuration
 
 Interactive training prompts & clear augmentation config
 
+- ✅ Multi-GPU distributed training 
 - ✅ Interactive Training Setup — When you start training, the script prompts for:
 
--- Training data path
+  - Training data path
+  - Validation data path
+  - Number of classes
+  - Number of epochs
 
--- Validation data path
-
--- Number of classes
-
--- Number of epochs
-
-- ✅ Augmentations at a Glance — All data augmentation techniques and their parameters are defined in src/augmentations.py
+- ✅ All data augmentation techniques and their parameters are defined in src/augmentations.py
   
-- ✅ Multi-GPU distributed training 
 
 ---
 
@@ -51,7 +48,7 @@ pip install -r requirements.txt
 ---
 
 
-### 4. Train the Model 
+### 3. Train the Model 
 ```bash
 python train.py
 ```
