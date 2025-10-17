@@ -1,6 +1,6 @@
-# 👁️ EViTiny — Redesigning the Vision Transformer for Parameters and FLOPs Efficiency
+# 👁️ EViTiny — Lightweight MLP-Free Vision Transformer with Embedding-Dimension Compression, Nonlinear Projection and Residual Global-Context Channel Gating
 
-This repository accompanies the paper **"Redesigning the Vision Transformer for Parameters and FLOPs Efficiency"**
+This repository accompanies the paper **"Lightweight MLP-Free Vision Transformer with Embedding-Dimension Compression, Nonlinear Projection and Residual Global-Context Channel Gating"**
 
 The project is structured for both **researchers** and **practitioners**, offering a clean, modular, and reproducible codebase.
 
