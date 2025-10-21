@@ -53,3 +53,20 @@ pip install -r requirements.txt
 python train.py
 ```
 ---
+
+### 4. Training Configuration
+
+To display the training configuration (including data augmentation), run:
+```bash
+yolo cfg
+```
+---
+
+### 5. Latency Benchmark
+
+To measure latency, set **`model_name`** (path to your engine) and **`source_folder`** (path to your images) in latency_benchmark.py, then run:
+```bash
+python latency_benchmark.py
+```
+---
+
